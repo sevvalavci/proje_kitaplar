@@ -9,5 +9,9 @@ class Welcome extends CI_Controller {
 		$this->load->view('proje.php');
 	
 	}
+	public function books_pages()
+	{
+		$this->load->view('includes/books_pages');
+	}
 	
 }
