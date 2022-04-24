@@ -1,60 +1,104 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="tr">
 
 <head>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
-    </script>
+  <meta charset="utf-8">
+  <title>Educenter</title>
 
+  <!-- mobile responsive meta -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
-
+  <!-- ** Plugins Needed for the Project ** -->
+  <!-- Bootstrap -->
+ <?php  $this->load->view("includes/proje_css.php"); ?>
+  <!--Favicon-->
+  <link rel="shortcut icon" href="<?php echo base_url("assets/"); ?>images/favicon.png" type="image/x-icon">
+  <link rel="icon" href="<?php echo base_url("assets/"); ?>images/favicon.png" type="image/x-icon">
 
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <div class="container-fluid">
-            <a class="navbar-brand" href="#">Navbar</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
-                aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Link</a>
-                    </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
-                            data-bs-toggle="dropdown" aria-expanded="false">
-                            Dropdown
-                        </a>
-                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <li><a class="dropdown-item" href="#">Action</a></li>
-                            <li><a class="dropdown-item" href="#">Another action</a></li>
-                            <li>
-                                <hr class="dropdown-divider">
-                            </li>
-                            <li><a class="dropdown-item" href="#">Something else here</a></li>
-                        </ul>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link disabled">Disabled</a>
-                    </li>
-                </ul>
-                <form class="d-flex">
-                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                    <button class="btn btn-outline-success" type="submit">Search</button>
-                </form>
-            </div>
-        </div>
-    </nav>
-</body>
+  <!-- preloader start -->
+  <div class="preloader">
+    <img src="<?php echo base_url("assets/"); ?>images/preloader.gif" alt="preloader">
+  </div>
+  <!-- preloader end -->
 
+<!-- header -->
+<header class="fixed-top header">
+  <!-- top header -->
+  <?php $this->load->view("includes/header.php"); ?>
+  <!-- navbar -->
+  <?php $this->load->view("includes/navbar.php"); ?>
+</header>
+<!-- /header -->
+<!-- Modal -->
+<?php $this->load->view("includes/kayitol_modal.php"); ?>
+<!-- Modal -->
+<?php $this->load->view("includes/giris_modal.php"); ?>
+
+<!-- hero slider -->
+<?php $this->load->view("includes/slider.php"); ?>
+<!-- /hero slider -->
+
+<!-- banner-feature -->
+
+<!-- /banner-feature -->
+
+<!-- sirket hakkinda -->
+<?php $this->load->view("includes/sirket_about.php"); ?>
+<!-- /about us -->
+
+<!-- courses -->
+<?php $this->load->view("includes/books.php"); ?>
+<!-- /course list -->
+    <!-- mobile see all button -->
+    
+
+<!-- /courses -->
+
+<!-- cta -->
+
+<!-- /cta -->
+
+<!-- success story -->
+
+<!-- /success story -->
+
+<!-- events -->
+
+<!-- hakkımızda -->
+<?php $this->load->view("includes/hakkimizda.php"); ?>
+<!-- /teachers -->
+
+<!-- blog -->
+
+  
+<!-- /blog -->
+
+<!-- footer -->
+<?php $this->load->view("includes/footer.php"); ?>
+<!-- /footer -->
+
+<!-- jQuery -->
+<script src="<?php echo base_url("assets/") ?>js/jquery.min.js"></script>
+<!-- Bootstrap JS -->
+<script src="<?php echo base_url("assets/") ?>js/bootstrap.min.js"></script>
+<!-- slick slider -->
+<script src="<?php echo base_url("assets/") ?>js/slick.min.js"></script>
+<!-- aos -->
+<script src="<?php echo base_url("assets/") ?>js/aos.js"></script>
+<!-- venobox popup -->
+<script src="<?php echo base_url("assets/") ?>js/venobox.min.js"></script>
+<!-- filter -->
+<script src="<?php echo base_url("assets/") ?>js/jquery.filterizr.min.js"></script>
+<!-- google map -->
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBu5nZKbeK-WHQ70oqOWo-_4VmwOwKP9YQ"></script>
+<script src="<?php echo base_url("assets/") ?>js/gmap.js"></script>
+
+<!-- Main Script -->
+<script src="<?php echo base_url("assets/") ?>js/script.js"></script>
+
+</body>
 </html>
