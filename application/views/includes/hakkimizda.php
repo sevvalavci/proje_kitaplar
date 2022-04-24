@@ -1,5 +1,5 @@
 <section class="section">
-  <div class="container">
+  <div id="hakkimizda" class="container">
     <div class="row justify-content-center">
       <div class="col-12">
         <h2 class="section-title">Our Teachers</h2>
@@ -10,9 +10,9 @@
           <img class="card-img-top rounded-0" src="<?php echo base_url("assets/"); ?>images/teachers/teacher-1.jpg" alt="teacher">
           <div class="card-body">
             <a href="teacher-single.html">
-              <h4 class="card-title">Jacke Masito</h4>
+              <h4 class="card-title">Mustafa Sevindi</h4>
             </a>
-            <p>Teacher</p>
+            <p>Senior</p>
             <ul class="list-inline">
               <li class="list-inline-item"><a class="text-color" href="#"><i class="ti-facebook"></i></a></li>
               <li class="list-inline-item"><a class="text-color" href="#"><i class="ti-twitter-alt"></i></a></li>
@@ -28,9 +28,9 @@
           <img class="card-img-top rounded-0" src="<?php echo base_url("assets/"); ?>images/teachers/teacher-2.jpg" alt="teacher">
           <div class="card-body">
             <a href="teacher-single.html">
-              <h4 class="card-title">Clark Malik</h4>
+              <h4 class="card-title">Hanifi Can Seven</h4>
             </a>
-            <p>Teacher</p>
+            <p>Yazılımcı</p>
             <ul class="list-inline">
               <li class="list-inline-item"><a class="text-color" href="#"><i class="ti-facebook"></i></a></li>
               <li class="list-inline-item"><a class="text-color" href="#"><i class="ti-twitter-alt"></i></a></li>
@@ -46,9 +46,9 @@
           <img class="card-img-top rounded-0" src="<?php echo base_url("assets/"); ?>images/teachers/teacher-3.jpg" alt="teacher">
           <div class="card-body">
             <a href="teacher-single.html">
-              <h4 class="card-title">John Doe</h4>
+              <h4 class="card-title">Sevval Avcı</h4>
             </a>
-            <p>Teacher</p>
+            <p>Yazılımcı</p>
             <ul class="list-inline">
               <li class="list-inline-item"><a class="text-color" href="#"><i class="ti-facebook"></i></a></li>
               <li class="list-inline-item"><a class="text-color" href="#"><i class="ti-twitter-alt"></i></a></li>

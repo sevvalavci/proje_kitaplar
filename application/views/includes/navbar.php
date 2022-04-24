@@ -10,11 +10,11 @@
         <div class="collapse navbar-collapse" id="navigation">
           <ul class="navbar-nav ml-auto text-center">
             <li class="nav-item active">
-              <a class="nav-link" href="index.html">Anasayfa</a>
+              <a class="nav-link" href="#">Anasayfa</a>
             </li>
            
             <li class="nav-item @@courses">
-              <a class="nav-link" href="courses.html">Kitaplar</a>
+              <a class="nav-link " style="scroll-behavior: smooth;" href="#section2">Kitaplar</a>
             </li>
             
             
@@ -23,7 +23,7 @@
             </li>
 
             <li class="nav-item @@contact">
-              <a class="nav-link" href="contact.html">Hakkımızda</a>
+              <a class="nav-link" style="scroll-behavior: smooth;" href="#hakkimizda">Hakkımızda</a>
             </li>
 
           </ul>

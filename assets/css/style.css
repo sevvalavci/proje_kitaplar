@@ -1005,5 +1005,17 @@ link:focus,
 .filter-controls li:hover {
   color: #ffbc3b;
 }
+html {
+  scroll-behavior: smooth;
+}
 
+#section1 {
+  height: 600px;
+  background-color: pink;
+}
+
+#section2 {
+  height: 600px;
+  background-color: yellow;
+}
 /*# sourceMappingURL=maps/style.css.map */

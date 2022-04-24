@@ -1,5 +1,5 @@
 <section class="section-sm">
-  <div class="container">
+  <div id="section2" class="container">
     <div class="row">
       <div class="col-12">
         <div class="d-flex align-items-center section-title justify-content-between">
