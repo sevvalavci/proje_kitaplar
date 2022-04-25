@@ -10,17 +10,15 @@
             <div class="modal-body">
                 <div class="login">
                     <form action="#" class="row">
+
                         <div class="col-12">
-                            <input type="text" class="form-control mb-3" id="signupPhone" name="signupPhone" placeholder="Telefon">
+                            <input type="text" class="form-control mb-3" id="signupName" name="signupName"
+                                placeholder="Kullanıcı Adı">
                         </div>
+
                         <div class="col-12">
-                            <input type="text" class="form-control mb-3" id="signupName" name="signupName" placeholder="Ad Soyad">
-                        </div>
-                        <div class="col-12">
-                            <input type="email" class="form-control mb-3" id="signupEmail" name="signupEmail" placeholder="Email">
-                        </div>
-                        <div class="col-12">
-                            <input type="password" class="form-control mb-3" id="signupPassword" name="signupPassword" placeholder="Şifre">
+                            <input type="password" class="form-control mb-3" id="signupPassword" name="signupPassword"
+                                placeholder="Şifre">
                         </div>
                         <div class="col-12">
                             <button type="submit" class="btn btn-primary">Kayıt ol</button>

@@ -8,15 +8,13 @@
                 </button>
             </div>
             <div class="modal-body">
-                <form action="#" class="row">
+                <form action="<?php echo base_url('welcome/girisdata'); ?>" method="POST" class="row">
+
                     <div class="col-12">
-                        <input type="text" class="form-control mb-3" id="loginPhone" name="loginPhone" placeholder="Telefon">
+                        <input type="text" class="form-control mb-3" id="kadi" name="kadi" placeholder="Kullanıcı Adı">
                     </div>
                     <div class="col-12">
-                        <input type="text" class="form-control mb-3" id="loginName" name="loginName" placeholder="Ad Soyad">
-                    </div>
-                    <div class="col-12">
-                        <input type="password" class="form-control mb-3" id="loginPassword" name="loginPassword" placeholder="Şifre">
+                        <input type="password" class="form-control mb-3" id="sifre" name="sifre" placeholder="Şifre">
                     </div>
                     <div class="col-12">
                         <button type="submit" class="btn btn-primary">Giriş</button>
