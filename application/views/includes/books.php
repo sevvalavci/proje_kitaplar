@@ -6,7 +6,7 @@
                     <h2 class="mb-0 text-nowrap mr-3">Our Course</h2>
                     <div class="border-top w-100 border-primary d-none d-sm-block"></div>
                     <div>
-                        <a href="<?php echo base_url("welcome/books_pages") ?>"
+                        <a href="<?php echo base_url("welcome/all_books") ?>"
                             class="btn btn-sm btn-primary-outline ml-sm-3 d-none d-sm-block">see all</a>
                     </div>
                 </div>
