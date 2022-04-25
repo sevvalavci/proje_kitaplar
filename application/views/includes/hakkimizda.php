@@ -10,7 +10,7 @@
                     <img class="card-img-top rounded-0" src="<?php echo base_url("assets/"); ?>images/cat13.jpg"
                         alt="teacher">
                     <div class="card-body">
-                        <a href="teacher-single.html">
+                        <a target="_blank" href="https://www.instagram.com/sevvallavc/?hl=tr">
                             <h4 class="card-title">Sevval Avcı</h4>
                         </a>
                         <p>Yazılımcı</p>
@@ -55,7 +55,7 @@
                     <img class="card-img-top rounded-0" src="<?php echo base_url("assets/"); ?>images/can2.jpg"
                         alt="teacher">
                     <div class="card-body">
-                        <a href="teacher-single.html">
+                        <a target="_blank" href="https://www.instagram.com/canchavo7/?hl=tr">
                             <h4 class="card-title">Hanifi Can Seven</h4>
                         </a>
                         <p>Yazılımcı</p>
@@ -78,7 +78,7 @@
                     <img class="card-img-top rounded-0"
                         src="<?php echo base_url("assets/"); ?>images/teachers/teacher-3.jpg" alt="teacher">
                     <div class="card-body">
-                        <a href="teacher-single.html">
+                        <a target="_blank" href="https://www.instagram.com/mstfsvndi/?hl=tr">
                             <h4 class="card-title">Mustafa Sevindi</h4>
                         </a>
                         <p>Yazılımcı</p>
