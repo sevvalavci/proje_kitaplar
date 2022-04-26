@@ -14,8 +14,8 @@
 
 
 
-    <div class="row featurette">
-        <div class="col-md-7">
+    <div class="row featurette col-12">
+        <div class="col-md-9 ti-align-center">
             <h2 class="featurette-heading">Kürt Mantolu Madonna <span class="text-muted">Sait Faik Abasıyanık</span>
             </h2>
             <p class="lead">“Göreceksiniz ya, ben dünyadan ziyade kafamın içinde yaşayan bir insanım... Hakiki hayatım
@@ -59,7 +59,7 @@
             </div>
 
         </div>
-        <div class="col-md-5">
+        <div class="col-md-3">
             <img class="featurette-image img-fluid mx-auto" data-src="holder.js/500x500/auto" alt="500x500"
                 style="width: 600px; height: 600px;" src="<?php echo base_url("assets/"); ?>images/kürtmantolu.jpg"
                 data-holder-rendered="true">
