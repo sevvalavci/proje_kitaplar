@@ -132,7 +132,7 @@ body, button, input {
 .app-contact {
   margin-top: auto;
   font-size: 8px;
-  color: #888;
+  color: #614124;
 }
 
 .app-form-group {
@@ -154,7 +154,7 @@ body, button, input {
   background: none;
   border: none;
   border-bottom: 1px solid #666;
-  color: #ddd;
+  color: #614124;
   font-size: 14px;
   text-transform: uppercase;
   outline: none;
@@ -162,17 +162,17 @@ body, button, input {
 }
 
 .app-form-control::placeholder {
-  color: #666;
+  color: #614124;
 }
 
 .app-form-control:focus {
-  border-bottom-color: #ddd;
+  border-bottom-color: #614124;
 }
 
 .app-form-button {
   background: none;
   border: none;
-  color: #ea1d6f;
+  color: #F24A72;
   font-size: 14px;
   cursor: pointer;
   outline: none;
@@ -282,27 +282,14 @@ body, button, input {
               <input class="app-form-control" placeholder="Mesajınızı bırakın">
             </div>
             <div class="app-form-group buttons">
-              <button class="app-form-button">İptal et</button>
+              <a href="<?php echo base_url(""); ?>" class="app-form-button">İptal</a>
               <button class="app-form-button">Gönder</button>
             </div>
           </div>
         </div>
       </div>
     </div>
-    <div class="credits">
-      inspired by
-      <a class="credits-link" href="https://dribbble.com/shots/2666271-Contact" target="_blank">
-        <svg class="dribbble" viewBox="0 0 200 200">
-          <g stroke="#ffffff" fill="none">
-            <circle cx="100" cy="100" r="90" stroke-width="20"></circle>
-            <path d="M62.737004,13.7923523 C105.08055,51.0454853 135.018754,126.906957 141.768278,182.963345" stroke-width="20"></path>
-            <path d="M10.3787186,87.7261455 C41.7092324,90.9577894 125.850356,86.5317271 163.474536,38.7920951" stroke-width="20"></path>
-            <path d="M41.3611549,163.928627 C62.9207607,117.659048 137.020642,86.7137169 189.041451,107.858103" stroke-width="20"></path>
-          </g>
-        </svg>
-        Gururaj
-      </a>
-    </div>
+    
   </div>
 </div>
 

@@ -15,6 +15,10 @@
                             <input type="text" class="form-control mb-3" id="signupName" name="signupName"
                                 placeholder="Kullanıcı Adı">
                         </div>
+                        <div class="col-12">
+                            <input type="email" class="form-control mb-3" id="email" name="email"
+                                placeholder="E-mail">
+                        </div>
 
                         <div class="col-12">
                             <input type="password" class="form-control mb-3" id="signupPassword" name="signupPassword"

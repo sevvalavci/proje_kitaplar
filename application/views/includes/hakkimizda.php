@@ -2,7 +2,7 @@
     <div class="container">
         <div class="row justify-content-center">
             <div class="col-12">
-                <h2 class="section-title">Our Teachers</h2>
+                <h2 class="section-title">Hakkımızda</h2>
             </div>
             <!-- teacher -->
             <div class="col-lg-4 col-sm-6 mb-5 mb-lg-0">

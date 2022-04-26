@@ -7,7 +7,7 @@
         <p>KİTAP OKUMAK HER KONUDA SİZİ GELİŞTİRİR.</p>
       </div>
       <div class="col-md-6 order-1 order-md-2 mb-4 mb-md-0">
-        <img class="img-fluid w-100" src="<?php echo base_url("assets/"); ?>images/images/kitaplar.jpg" alt="about image">
+        <img class="img-fluid w-100" src="<?php echo base_url("assets/"); ?>images/penege.png" alt="about image">
       </div>
     </div>
   </div>
