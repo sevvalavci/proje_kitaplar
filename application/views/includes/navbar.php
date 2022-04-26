@@ -18,21 +18,14 @@
                         <a class="nav-link " style="scroll-behavior: smooth;" href="#books">Kitaplar</a>
 
                     </li>
+                    <li class="nav-item @@courses">
+                        <a class="nav-link " style="scroll-behavior: smooth;" href="<?php echo base_url("welcome/contact"); ?>">İletişim</a>
 
-
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
-                            data-toggle="dropdown" aria-expanded="false">
-                            İletişim
-                        </a>
-                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <a class="dropdown-item" href="#">asdasdasd</a>
-                            <a class="dropdown-item" href="#">Another action</a>
-                            <div class="dropdown-divider"></div>
-                            <a class="dropdown-item" href="#">Something else here</a>
-                        </div>
                     </li>
 
+
+
+                   
                     <li class="nav-item @@contact">
                         <a class="nav-link" style="scroll-behavior: smooth;" href="#hakkimizda">Hakkımızda</a>
                     </li>

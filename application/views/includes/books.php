@@ -3,11 +3,11 @@
         <div class="row">
             <div class="col-12">
                 <div class="d-flex align-items-center section-title justify-content-between">
-                    <h2 class="mb-0 text-nowrap mr-3">Our Course</h2>
+                    <h2 class="mb-0 text-nowrap mr-3">Kitaplar</h2>
                     <div class="border-top w-100 border-primary d-none d-sm-block"></div>
                     <div>
                         <a href="<?php echo base_url("welcome/all_books") ?>"
-                            class="btn btn-sm btn-primary-outline ml-sm-3 d-none d-sm-block">see all</a>
+                            class="btn btn-sm btn-primary-outline ml-sm-3 d-none d-sm-block">Hepsini görüntüle</a>
                     </div>
                 </div>
             </div>
@@ -30,8 +30,8 @@
                         <p class="card-text mb-4"> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
                             eiusmod tempor
                             incididunt ut labore et dolore magna.</p>
-                        <a href="<?php echo base_url("welcome/books_pages") ?>" class="btn btn-primary btn-sm">Apply
-                            now</a>
+                        <a href="<?php echo base_url("welcome/books_pages") ?>" class="btn btn-primary btn-sm">Devamını oku
+                            </a>
                     </div>
                 </div>
             </div>

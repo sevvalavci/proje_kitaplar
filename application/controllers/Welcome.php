@@ -21,4 +21,9 @@ class Welcome extends CI_Controller
 	{
 		$this->load->view("includes/all_books");
 	}
+	public function contact()
+	{
+		$this->load->view("includes/contact");
+	}
+
 }

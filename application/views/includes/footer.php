@@ -20,7 +20,7 @@
                 <div class="col-lg-2 col-md-3 col-sm-4 col-6 mb-5 mb-md-0">
                     <h4 class="text-white mb-5">COMPANY</h4>
                     <ul class="list-unstyled">
-                        <li class="mb-3"><a class="text-color" href="about.html">About Us</a></li>
+                        <li class="mb-3"><a class="text-color" href="about.html">Hakkımızda</a></li>
                         <li class="mb-3"><a class="text-color" href="teacher.html">Our Teacher</a></li>
                         <li class="mb-3"><a class="text-color" href="contact.html">Contact</a></li>
                         <li class="mb-3"><a class="text-color" href="blog.html">Blog</a></li>
@@ -30,7 +30,7 @@
                 <div class="col-lg-2 col-md-3 col-sm-4 col-6 mb-5 mb-md-0">
                     <h4 class="text-white mb-5">LINKS</h4>
                     <ul class="list-unstyled">
-                        <li class="mb-3"><a class="text-color" href="courses.html">Courses</a></li>
+                        <li class="mb-3"><a class="text-color" href="courses.html">Kitaplar</a></li>
                         <li class="mb-3"><a class="text-color" href="event.html">Events</a></li>
                         <li class="mb-3"><a class="text-color" href="gallary.html">Gallary</a></li>
                         <li class="mb-3"><a class="text-color" href="faqs.html">FAQs</a></li>
