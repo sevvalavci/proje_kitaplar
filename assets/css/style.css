@@ -9,6 +9,7 @@ VERSION:	Versoin Number
 -------------------------------------------------------------------*/
 /*  typography */
 @import url("https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700");
+
 @font-face {
   font-family: 'futura-bold';
   src: url("../fonts/Futura-Bold.woff") format("woff");
@@ -24,7 +25,8 @@ body {
   color: #5c5c77;
 }
 
-p, .paragraph {
+p,
+.paragraph {
   font-weight: 400;
   color: #5c5c77;
   font-size: 15px;
@@ -32,69 +34,92 @@ p, .paragraph {
   font-family: "Poppins", sans-serif;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   color: #1e1e4b;
   font-family: "futura-bold";
   font-weight: 700;
   line-height: 1.2;
 }
 
-h1, .h1 {
+h1,
+.h1 {
   font-size: 60px;
 }
 
 @media (max-width: 575px) {
-  h1, .h1 {
+
+  h1,
+  .h1 {
     font-size: 45px;
   }
 }
 
-h2, .h2 {
+h2,
+.h2 {
   font-size: 40px;
 }
 
 @media (max-width: 575px) {
-  h2, .h2 {
+
+  h2,
+  .h2 {
     font-size: 30px;
   }
 }
 
-h3, .h3 {
+h3,
+.h3 {
   font-size: 25px;
 }
 
 @media (max-width: 575px) {
-  h3, .h3 {
+
+  h3,
+  .h3 {
     font-size: 20px;
   }
 }
 
-h4, .h4 {
+h4,
+.h4 {
   font-size: 20px;
 }
 
 @media (max-width: 575px) {
-  h4, .h4 {
+
+  h4,
+  .h4 {
     font-size: 18px;
   }
 }
 
-h5, .h5 {
+h5,
+.h5 {
   font-size: 18px;
 }
 
 @media (max-width: 575px) {
-  h5, .h5 {
+
+  h5,
+  .h5 {
     font-size: 16px;
   }
 }
 
-h6, .h6 {
+h6,
+.h6 {
   font-size: 16px;
 }
 
 @media (max-width: 575px) {
-  h6, .h6 {
+
+  h6,
+  .h6 {
     font-size: 14px;
   }
 }
@@ -126,9 +151,9 @@ h6, .h6 {
   transition: transform .2s ease-in-out;
   transition: transform .2s ease-in-out, -webkit-transform .2s ease-in-out;
   -webkit-transform-origin: top;
-          transform-origin: top;
+  transform-origin: top;
   -webkit-transform: scaleY(0);
-          transform: scaleY(0);
+  transform: scaleY(0);
 }
 
 .btn:focus {
@@ -142,9 +167,9 @@ h6, .h6 {
 
 .btn:hover::before {
   -webkit-transform: scaleY(1);
-          transform: scaleY(1);
+  transform: scaleY(1);
   -webkit-transform-origin: bottom;
-          transform-origin: bottom;
+  transform-origin: bottom;
 }
 
 .btn-sm {
@@ -182,7 +207,7 @@ h6, .h6 {
 
 .btn-primary:not(:disabled):not(.disabled).active,
 .btn-primary:not(:disabled):not(.disabled):active,
-.show > .btn-primary.dropdown-toggle {
+.show>.btn-primary.dropdown-toggle {
   color: #fff;
   background-color: #ffab08;
   border-color: #ffab08;
@@ -482,7 +507,7 @@ a h4:hover {
   left: -5px;
   color: #fff;
   -webkit-transform: translateY(-50%);
-          transform: translateY(-50%);
+  transform: translateY(-50%);
 }
 
 /* /page title */
@@ -521,15 +546,15 @@ textarea.form-control {
   transition: transform .2s ease;
   transition: transform .2s ease, -webkit-transform .2s ease;
   -webkit-transform-origin: top;
-          transform-origin: top;
+  transform-origin: top;
   font-weight: 600;
 }
 
 .top-header.hide {
   -webkit-transform: scaleY(0);
-          transform: scaleY(0);
+  transform: scaleY(0);
   -webkit-transform-origin: top;
-          transform-origin: top;
+  transform-origin: top;
 }
 
 .navigation {
@@ -584,19 +609,20 @@ textarea.form-control {
   content: "";
   background: #fff;
   -webkit-transform: scaleY(0);
-          transform: scaleY(0);
+  transform: scaleY(0);
   -webkit-transform-origin: top;
-          transform-origin: top;
+  transform-origin: top;
   transition: -webkit-transform .3s ease;
   transition: transform .3s ease;
   transition: transform .3s ease, -webkit-transform .3s ease;
 }
 
-.nav-item:hover::before, .nav-item.active::before {
+.nav-item:hover::before,
+.nav-item.active::before {
   -webkit-transform: scaleY(1);
-          transform: scaleY(1);
+  transform: scaleY(1);
   -webkit-transform-origin: bottom;
-          transform-origin: bottom;
+  transform-origin: bottom;
 }
 
 .navbar-dark .navbar-nav .nav-link {
@@ -608,10 +634,10 @@ link:focus,
   color: #fff;
 }
 
-.navbar-dark .navbar-nav .active > .nav-link,
+.navbar-dark .navbar-nav .active>.nav-link,
 .navbar-dark .navbar-nav .nav-link.active,
 .navbar-dark .navbar-nav .nav-link.show,
-.navbar-dark .navbar-nav .show > .nav-link {
+.navbar-dark .navbar-nav .show>.nav-link {
   color: #fff;
 }
 
@@ -638,7 +664,7 @@ link:focus,
   visibility: visible;
   opacity: 1;
   -webkit-transform: translateY(0);
-          transform: translateY(0);
+  transform: translateY(0);
 }
 
 .navbar .dropdown-menu {
@@ -652,7 +678,7 @@ link:focus,
   transition: .3s ease;
   opacity: 0;
   -webkit-transform: translateY(20px);
-          transform: translateY(20px);
+  transform: translateY(20px);
   background: #fff;
 }
 
@@ -662,9 +688,9 @@ link:focus,
     opacity: 1;
     visibility: visible;
     -webkit-transform: translateY(0);
-            transform: translateY(0);
+    transform: translateY(0);
     -webkit-transform-origin: unset;
-            transform-origin: unset;
+    transform-origin: unset;
   }
 }
 
@@ -790,6 +816,7 @@ link:focus,
     padding-left: 50px;
     padding-top: 30px;
   }
+
   .feature-blocks h3 {
     font-size: 20px;
   }
@@ -800,6 +827,7 @@ link:focus,
     margin-top: 0;
     padding: 50px;
   }
+
   .feature-blocks h3 {
     font-size: 25px;
   }
@@ -835,14 +863,14 @@ link:focus,
   top: 50%;
   left: 0;
   -webkit-transform: translateY(-50%);
-          transform: translateY(-50%);
+  transform: translateY(-50%);
 }
 
 @media (max-width: 767px) {
   .success-video .play-btn {
     left: 50%;
     -webkit-transform: translate(-50%, -50%);
-            transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
   }
 }
 
@@ -867,7 +895,7 @@ link:focus,
   height: 0;
   width: 0;
   -webkit-transform: translate(-50%, -50%);
-          transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
   background: #fff;
   border-radius: 50%;
   top: 50%;
@@ -883,7 +911,7 @@ link:focus,
   height: 80%;
   width: 80%;
   -webkit-transform: translate(-50%, -50%);
-          transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
   background: #ffbc3b;
   border-radius: 50%;
   top: 50%;
@@ -958,7 +986,7 @@ link:focus,
   right: 25px;
   top: 50%;
   -webkit-transform: translateY(-50%);
-          transform: translateY(-50%);
+  transform: translateY(-50%);
 }
 
 .form-control {
@@ -988,7 +1016,7 @@ link:focus,
 
 .footer {
   border-color: #494a43 !important;
-  padding-top: 275px;
+  padding-top: 50px;
 }
 
 /* /footer */
@@ -1005,6 +1033,7 @@ link:focus,
 .filter-controls li:hover {
   color: #ffbc3b;
 }
+
 html {
   scroll-behavior: smooth;
 }
@@ -1018,4 +1047,5 @@ html {
   height: 600px;
   background-color: yellow;
 }
+
 /*# sourceMappingURL=maps/style.css.map */
