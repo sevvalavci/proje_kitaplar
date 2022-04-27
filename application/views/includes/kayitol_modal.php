@@ -9,20 +9,17 @@
             </div>
             <div class="modal-body">
                 <div class="login">
-                    <form action="#" class="row">
+                    <form action="<?php echo base_url("welcome/registerdata"); ?>" method="POST" class="row">
 
                         <div class="col-12">
-                            <input type="text" class="form-control mb-3" id="signupName" name="signupName"
-                                placeholder="Kullanıcı Adı">
+                            <input type="text" class="form-control mb-3" name="kadi" placeholder="Kullanıcı adı">
                         </div>
                         <div class="col-12">
-                            <input type="email" class="form-control mb-3" id="email" name="email"
-                                placeholder="E-mail">
+                            <input type="email" class="form-control mb-3" name="eposta" placeholder="E-posta">
                         </div>
 
                         <div class="col-12">
-                            <input type="password" class="form-control mb-3" id="signupPassword" name="signupPassword"
-                                placeholder="Şifre">
+                            <input type="password" class="form-control mb-3" name="sifre" placeholder="Şifre">
                         </div>
                         <div class="col-12">
                             <button type="submit" class="btn btn-primary">Kayıt ol</button>
