@@ -21,8 +21,24 @@
                         <div class="col-12">
                             <input type="password" class="form-control mb-3" name="sifre" placeholder="Şifre">
                         </div>
-                        <div class="col-12">
-                            <button type="submit" class="btn btn-primary">Kayıt ol</button>
+                        <div class="row">
+                            <div class="col-6">
+                                <button type="submit" class="btn btn-primary">Kayıt ol</button>
+
+                            </div>
+                            <div class="col-6">
+                                <?php if ($this->input->get("status") != null) {
+                                    if ($this->input->get("status") == true) {
+                                ?>
+                                Kayıt Olundu
+                                <?php
+                                    } elseif ($this->input->get() == false) {
+                                    ?>
+                                Bişeyler Ters Gitti
+                                <?php
+                                    }
+                                } ?>
+                            </div>
                         </div>
                     </form>
                 </div>

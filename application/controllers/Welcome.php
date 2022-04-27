@@ -25,6 +25,10 @@ class Welcome extends CI_Controller
 	{
 		$this->load->view("includes/contact");
 	}
+	public function kayitol()
+	{
+		$this->load->view("includes/kayitol");
+	}
 	public function registerdata()
 	{
 		if ($this->input->method() == "post") {
@@ -44,9 +48,9 @@ class Welcome extends CI_Controller
 				);
 				$ekle = $this->common_model->addata('uyeler', $data);
 				if ($ekle) {
-					echo "Üyelik Oluşturuldu";
+					redirect(base_url("?status=true"));
 				} else {
-					echo "Hata oluştu";
+					redirect(base_url("?status=false"));
 				}
 			}
 		}
