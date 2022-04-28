@@ -126,7 +126,7 @@
         <div class="shape"></div>
     </div>
 
-    <form>
+    <form method="POST" class="row">
         <h3>Gİriş </h3>
         <label for="username">Kullanıcı Adı</label>
         <input type="text" name="kadi" placeholder="Kullanıcı adı">
