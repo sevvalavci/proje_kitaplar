@@ -29,6 +29,10 @@ class Welcome extends CI_Controller
 	{
 		$this->load->view("includes/kayitol");
 	}
+	public function giris()
+	{
+		$this->load->view("includes/giris");
+	}
 	public function registerdata()
 	{
 		if ($this->input->method() == "post") {
@@ -48,9 +52,9 @@ class Welcome extends CI_Controller
 				);
 				$ekle = $this->common_model->addata('uyeler', $data);
 				if ($ekle) {
-					redirect(base_url("?status=true"));
+					redirect(base_url("/welcome/kayitol?status=true"));
 				} else {
-					redirect(base_url("?status=false"));
+					redirect(base_url("/welcome/kayitol?status=false"));
 				}
 			}
 		}
