@@ -10,7 +10,6 @@ class login extends CI_Controller
     public function logindata()
     {
         if ($this->input->method() == "post") {
-            $this->form_validation->set_rules('kadi', 'Kullanıcı adı', 'trim|required');
             $this->form_validation->set_rules('sifre', 'Şifreniz', 'trim|required');
             $this->form_validation->set_rules('eposta', 'E-posta adresi', 'trim|required|valid_email');
 
@@ -22,6 +21,17 @@ class login extends CI_Controller
                 'sifre' => sha1(md5(strip_tags(trim($this->input->post('sifre', true))))),
                 'eposta' => strip_tags(trim($this->input->post('eposta', true)))
             ], 'uyeler');
+            if ($query) {
+                $this->session->set_userdata([
+                    'oturum' => true,
+                    'id'     => $query->id,
+                    'kadi'   => $query->kadi,
+                    'eposta' => $query->eposta
+                ]);
+                redirect(base_url('profile'));
+            } else {
+                echo "Bilgiler Yanlış";
+            }
         }
     }
 }
