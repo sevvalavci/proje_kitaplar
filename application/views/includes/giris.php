@@ -140,7 +140,7 @@
 
         <br><br>
 
-        <a class="social" href="<?php echo base_url(""); ?>">İptal</a>
+        <a class="social" href="<?php echo base_url("welcome/books_pages"); ?>">İptal</a>
 
 
     </form>
