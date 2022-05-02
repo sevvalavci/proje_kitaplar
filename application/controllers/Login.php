@@ -21,6 +21,7 @@ class login extends CI_Controller
                 'sifre' => sha1(md5(strip_tags(trim($this->input->post('sifre', true))))),
                 'eposta' => strip_tags(trim($this->input->post('eposta', true)))
             ], 'uyeler');
+
             if ($query) {
                 $this->session->set_userdata([
                     'oturum' => true,
