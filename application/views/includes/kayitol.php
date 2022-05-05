@@ -126,9 +126,11 @@
             <div class="form-field d-flex align-items-center"> <span class="fas fa-key"></span> <input type="password"
                     name="sifre" placeholder="Şifreniz"> </div>
             <button class="btn mt-3">Kayıt Ol</button>
+            <br>
+
         </form>
         <div class="row">
-            <div class="text fs-6"> <a href="#">Şifremi Unuttum</a> </div>
+            <div class="text fs-6"> <a href="<?php echo base_url(""); ?>">KAYIT OLMAK İSTEMİYOR MUSUN?</a> </div>
             <div class="text fs-6">
                 <?php if ($this->input->get("status") != null) {
                     if ($this->input->get("status") == true) {

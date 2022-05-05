@@ -9,6 +9,8 @@
                             href="<?php echo base_url("welcome/giris"); ?>">Giriş</a></li>
                     <li class="list-inline-item"><a class="text-uppercase text-light p-sm-2 py-2 px-0 d-inline-block"
                             href="<?php echo base_url("welcome/kayitol") ?>">Kayıt ol</a></li>
+                    <li class="list-inline-item"><a class="text-uppercase text-light p-sm-2 py-2 px-0 d-inline-block"
+                            href="<?php echo base_url("welcome/profil") ?>">Profil</a></li>
                 </ul>
             </div>
         </div>

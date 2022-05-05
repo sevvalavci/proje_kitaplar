@@ -33,6 +33,11 @@ class Welcome extends CI_Controller
 	{
 		$this->load->view("includes/giris");
 	}
+	public function profil()
+	{
+		$this->load->view("includes/profil");
+	}
+
 	public function registerdata()
 	{
 		if ($this->input->method() == "post") {
